@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "CUDA C++: Hello World",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "preLaunchTask": "build-hello_world",
+            "program": "${workspaceFolder}/hello_world/cuda-app"
+        },
+        {
+            "name": "CUDA C++: Vector Sum",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "preLaunchTask": "build-vector_sum",
+            "program": "${workspaceFolder}/vector_sum/cuda-app"
+        },
+        {
+            "name": "CUDA C++: Matrix Multiplication",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "preLaunchTask": "build-matrix_mul",
+            "program": "${workspaceFolder}/matrix_mul/cuda-app"
+        },
+
+
+    ]
+}
